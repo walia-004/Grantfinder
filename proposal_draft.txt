@@ -1,0 +1,98 @@
+**Proposal for Global Hubs Research Seed Grant: Advancing AI-Accelerated Materials Discovery for Carbon Capture and Utilization**
+
+**Organization:** Saksham Walia
+**Funding Request:** USD 2,000
+
+---
+
+**1. Executive Summary**
+
+Saksham Walia requests USD 2,000 from the Cornell Global Hubs Research Seed Grant program to enable the presentation of cutting-edge research on AI-accelerated materials discovery for carbon capture and utilization (CCU) at a forthcoming international academic conference. This presentation will showcase innovative solutions critical to addressing a pressing Global Grand Challenge: climate change and decarbonization. By disseminating this research and fostering international collaborations, Saksham Walia aims to significantly advance global efforts in sustainable technology and contribute to the broader impact goals championed by Cornell's Global Hubs network.
+
+---
+
+**2. Organization Description**
+
+Saksham Walia is a dedicated entity engaged in advanced scientific research, with a specific focus on pioneering interdisciplinary solutions for critical global challenges. Operating with a presence in India and Abu Dhabi, United Arab Emirates, our work bridges advanced computing, materials science, and environmental sustainability. Our mission is to present cutting-edge research on AI-accelerated materials discovery for carbon capture and utilization (CCU) at an international academic conference, fostering collaborations and advancing global decarbonization efforts. Our researchers actively contribute to the international scientific community, pursuing innovative approaches to accelerate the development of technologies crucial for a sustainable future.
+
+---
+
+**3. Problem Statement & Project Need**
+
+Climate change, driven by escalating atmospheric CO2 levels, represents a paramount Global Grand Challenge. Effective carbon capture and utilization (CCU) technologies are indispensable for mitigating this crisis. However, the discovery and optimization of new materials for CCU are traditionally resource-intensive and time-consuming processes. There is a critical need for accelerated material discovery methods to deploy scalable and efficient CCU solutions faster.
+
+Saksham Walia has developed groundbreaking research utilizing Artificial Intelligence (AI) to significantly speed up the discovery of novel materials suitable for CCU. While this research holds immense potential, its impact is maximized through international dissemination and collaborative engagement with the global scientific community. The specific need is for funding to facilitate the presentation of this research at a high-profile international academic conference, which often entails significant costs for registration, travel, and accommodation. Without this support, the opportunity to share vital findings, solicit feedback, and forge strategic partnerships essential for accelerating global decarbonization efforts would be diminished.
+
+---
+
+**4. Project Description & Objectives**
+
+This project seeks a Global Hubs Research Seed Grant to facilitate the participation of Saksham Walia at a prominent international academic conference. The core activity will be the oral presentation of our innovative research on "AI-Accelerated Materials Discovery for Enhanced Carbon Capture and Utilization."
+
+The primary objectives of this project are:
+*   **Disseminate Cutting-Edge Research:** To present Saksham Walia's advanced research on AI-accelerated CCU materials to a global audience of leading academics, researchers, and industry experts.
+*   **Foster International Collaboration:** To actively engage with international peers, identify potential collaborators, and initiate discussions for joint research initiatives that can further accelerate CCU technology development.
+*   **Advance Global Decarbonization Efforts:** To contribute directly to the global scientific discourse on climate change solutions, providing novel insights and methodologies that can inform future research and policy in carbon capture.
+*   **Enhance Visibility and Impact:** To elevate the visibility of research originating from our operational hubs in India and Abu Dhabi, UAE, demonstrating a commitment to addressing Global Grand Challenges from diverse international perspectives, aligning with the ethos of Cornell's Global Hubs.
+
+---
+
+**5. Methodology & Activities**
+
+Upon securing the grant, Saksham Walia will undertake the following activities:
+*   **Conference Registration:** Complete registration for the presenting researcher at the selected international academic conference.
+*   **Travel and Accommodation:** Arrange and book necessary international travel (flights) and accommodation for the duration of the conference.
+*   **Presentation Preparation:** Finalize the research presentation (slides, posters, abstracts) to ensure clarity, scientific rigor, and impactful delivery.
+*   **Active Participation:** Present the research findings during the scheduled session, engage in Q&A, and actively participate in networking events, workshops, and scientific discussions throughout the conference. This includes seeking out specific researchers and institutions for potential collaboration, particularly those within or aligned with Cornell's global research network.
+*   **Post-Conference Reporting:** Document key interactions, collaboration leads, and insights gained from the conference.
+
+---
+
+**6. Expected Outcomes & Impact**
+
+The successful execution of this project will yield several significant outcomes and impacts, directly addressing Global Grand Challenges and reinforcing Cornell Global Hubs' mission:
+
+*   **Accelerated Research and Development:** The direct dissemination and expert feedback received will refine our research direction and potentially accelerate the development of more efficient and cost-effective CCU materials.
+*   **Established Collaborations:** The conference will serve as a catalyst for establishing new international research partnerships, potentially leading to joint grant applications, publications, and shared resources, amplifying global efforts in decarbonization.
+*   **Global Knowledge Exchange:** Our research contribution will enrich the global knowledge base, inspiring further innovation and application of AI in materials science for environmental sustainability.
+*   **Contribution to Decarbonization:** By advancing CCU technology, this project directly supports global efforts to reduce atmospheric carbon dioxide, aligning with the critical need for solutions to climate change – a central Global Grand Challenge.
+*   **Enhanced Global Hubs Network:** The engagement will showcase how research emanating from regions like India and the UAE (Saksham Walia's locations) contributes to the global scientific community, strengthening the international reach and impact of initiatives like Cornell's Global Hubs.
+
+---
+
+**7. Evaluation Plan**
+
+The success of this project will be evaluated based on the following metrics:
+*   **Research Presentation:** Successful delivery of the research presentation at the international conference.
+*   **Engagement Metrics:** Number of meaningful interactions and discussions with potential collaborators, measured by recorded contacts and follow-up communications.
+*   **Feedback Integration:** Qualitative assessment of feedback received on the research and its integration into future research directions.
+*   **Collaboration Leads:** Number of concrete leads for future research collaborations or joint projects identified during the conference.
+*   **Dissemination:** Availability of presentation materials (e.g., published abstract, conference paper) to a wider audience.
+
+---
+
+**8. Sustainability & Future Funding**
+
+The immediate goal of this Seed Grant is to enable the critical dissemination and networking required to move this groundbreaking research forward. The collaborations forged at the conference are expected to be the foundation for larger, multi-institutional research grants and projects. By showcasing the potential of AI-accelerated materials discovery, Saksham Walia aims to attract significant follow-on funding from national and international research agencies, private foundations, and industry partners interested in climate technologies. This Seed Grant will therefore catalyze future, larger-scale funding initiatives, ensuring the long-term sustainability and impact of our CCU research efforts.
+
+---
+
+**9. Budget Request**
+
+Saksham Walia respectfully requests a total of USD 2,000 for conference participation. This allocation ensures direct and efficient use of funds to achieve the outlined objectives.
+
+| Item                      | Amount (USD) | Justification                                                                            |
+| :------------------------ | :----------- | :--------------------------------------------------------------------------------------- |
+| Conference Registration   | 500          | Essential for accessing all conference sessions, presentations, and networking events.     |
+| Economy Airfare (round-trip) | 1,000        | Travel from India/UAE to the international conference location. Estimate based on typical international travel costs. |
+| Accommodation (3 nights) | 400          | To cover lodging expenses during the conference duration. Estimate based on typical conference hotel rates. |
+| Per Diem/Meals (3 days)   | 100          | To cover essential meal expenses for the presenter.                                      |
+| **Total Request**         | **2,000**    |                                                                                          |
+
+*Note: All figures are estimates and will be meticulously tracked to ensure prudent expenditure.*
+
+---
+
+**10. Conclusion**
+
+Saksham Walia's research on AI-accelerated materials discovery for carbon capture and utilization represents a vital contribution to addressing a critical Global Grand Challenge. Support from the Cornell Global Hubs Research Seed Grant program will directly enable the crucial step of disseminating this research at an international forum, fostering collaborations, and accelerating global decarbonization efforts. This investment aligns perfectly with Cornell's commitment to tackling global challenges through research and international engagement. We believe this project offers significant potential for impact, enhancing the global scientific community's capacity to build a sustainable future, and we are confident that our work will contribute meaningfully to the network of research and collaboration championed by Cornell's Global Hubs.
