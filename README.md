@@ -9,12 +9,7 @@ GrantFinder is a multi-agent AI system that automates the process of:
 🧠 Summarizing & ranking opportunities
 ✍️ Generating a complete grant proposal
 
-This project is built around a real-world use case:
 
-🎯 Supporting Saksham Walia to secure funding for presenting an accepted research abstract at the
-AIMS 2025 Conference on AI and Materials for Sustainability (IIT Delhi – Abu Dhabi)
-
-The research focuses on AI-accelerated materials discovery for carbon capture and utilization (CCU)
 
 ⚡ Problem
 
@@ -118,8 +113,6 @@ GrantFinder/
 1. Install dependencies
 pip install requests beautifulsoup4 tqdm google-generativeai
 2. Set API Key
-
-Create .env file:
 
 GOOGLE_API_KEY=your_api_key_here
 ▶️ Run
