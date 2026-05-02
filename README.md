@@ -54,8 +54,6 @@ This project was designed, built, and submitted as part of the **Kaggle × Googl
 <!-- To display your certificate: upload the image to your repo and replace the path below -->
 ![Certificate of Completion](./certificate.jpeg)
 
-> 💡 *To add your certificate: upload the image to this repo (e.g. `certificate.png`) and the badge above will render automatically on GitHub.*
-
 ---
 
 ## ⚡ The Problem
