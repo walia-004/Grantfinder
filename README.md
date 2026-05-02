@@ -1,147 +1,280 @@
-# Grantfinder
-GrantFinder: AI-Powered Travel Grant Discovery &amp; Proposal Generator  GrantFinder is an AI-driven, multi-agent system built to automate the process of discovering, evaluating, and applying for travel grants
-📌 Overview
+<div align="center">
 
-GrantFinder is a multi-agent AI system that automates the process of:
+<img src="https://img.shields.io/badge/AI--Powered-Multi--Agent-blueviolet?style=for-the-badge&logo=google&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Gemini-API-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+<img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
 
-🔍 Finding relevant travel grants
-📄 Extracting eligibility criteria
-🧠 Summarizing & ranking opportunities
-✍️ Generating a complete grant proposal
+<br /><br />
 
+# 🎓 GrantFinder
 
+### AI-Powered Travel Grant Discovery & Proposal Generator
 
-⚡ Problem
+*From hours of manual searching to a ready-to-submit proposal.*
 
-Finding academic travel funding is difficult because:
+[Overview](#-overview) · [Architecture](#-system-architecture) · [Setup](#️-setup) · [Usage](#️-run) · [Roadmap](#-future-improvements)
 
-Grants are scattered across multiple websites
-Eligibility is unclear and unstructured
-Manual reading takes hours
-Proposal writing is time-consuming
-💡 Solution
+</div>
 
-GrantFinder solves this using a multi-agent pipeline:
+---
 
+## 📌 Overview
+
+**GrantFinder** is a multi-agent AI system that fully automates the academic travel funding pipeline. It discovers relevant grants, evaluates eligibility, ranks opportunities by fit, and generates a tailored, ready-to-submit proposal — all from a single researcher profile.
+
+```
 Search → Extract → Summarize → Score → Draft Proposal
-🧠 System Architecture
-🔎 1. SearchAgent
-Generates intelligent queries
-Scrapes web results (Bing / DuckDuckGo)
-Returns relevant grant URLs
-📄 2. ExtractorAgent
-Fetches web pages
-Extracts eligibility sections
-Uses fallback for noisy pages
-🧠 3. SummarizerAgent
-Uses Gemini API to summarize grants
-Scores relevance using:
-Keywords
-Location
-Travel/conference relevance
-Ranks best opportunities
-✍️ 4. DraftAgent
-Generates a full grant proposal
-Tailored to:
-Conference
-Research topic
-Funding needs
-Includes fallback when API quota is exceeded
-🔄 Example Output
-📌 Top Grant Found
-Cornell Global Hubs Research Seed Grant
-Score: 23.4
-✍️ Generated Proposal (Snippet)
-Proposal for Global Hubs Research Seed Grant: Advancing AI-Accelerated Materials Discovery for Carbon Capture and Utilization
+```
 
-Funding Request: USD 2,000
+Designed for students, researchers, and early-career academics who need funding but lack the time or resources to navigate the fragmented grant landscape.
+
+---
+
+## ⚡ The Problem
+
+Finding academic travel funding is frustrating:
+
+| Challenge | Impact |
+|---|---|
+| Grants scattered across hundreds of websites | Hours of manual searching |
+| Eligibility criteria buried in dense HTML | Missed opportunities |
+| Unstructured, inconsistent formatting | Hard to compare at a glance |
+| Proposal writing is technical & time-consuming | Barrier to applying |
+
+---
+
+## 💡 The Solution
+
+GrantFinder deploys a **4-agent pipeline** that handles every step automatically:
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                    GRANTFINDER PIPELINE                  │
+│                                                         │
+│  [Profile]──►[SearchAgent]──►[ExtractorAgent]           │
+│                                     │                   │
+│                              [SummarizerAgent]          │
+│                                     │                   │
+│                               [DraftAgent]──►[Proposal] │
+└─────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🧠 System Architecture
+
+### 🔎 1. SearchAgent
+- Generates intelligent, profile-aware search queries
+- Scrapes results from Bing / DuckDuckGo
+- Returns a ranked list of relevant grant URLs
+
+### 📄 2. ExtractorAgent
+- Fetches raw HTML from each grant page
+- Extracts eligibility sections using targeted parsing
+- Applies a noise-tolerant fallback for complex or broken pages
+
+### 🧠 3. SummarizerAgent
+- Sends content to **Google Gemini API** for intelligent summarization
+- Scores each grant using a multi-factor relevance model:
+  - ✅ Keyword overlap with researcher profile
+  - ✅ Geographic eligibility
+  - ✅ Conference / travel relevance
+  - ✅ Funding range alignment
+- Outputs a ranked JSON of best opportunities
+
+### ✍️ 4. DraftAgent
+- Generates a **complete, publication-ready grant proposal**
+- Tailored to the specific grant, conference, and research topic
+- Gracefully handles API quota limits with a structured fallback
+
+---
+
+## 🔄 Example Output
+
+### 📌 Top Grant Identified
+```
+Grant:   Cornell Global Hubs Research Seed Grant
+Score:   23.4
+Status:  ✅ Eligible
+```
+
+### ✍️ Generated Proposal (Excerpt)
+```
+Title:   Advancing AI-Accelerated Materials Discovery for
+         Carbon Capture and Utilization
+
+Grant:   Global Hubs Research Seed Grant
+Amount:  USD 2,000
 
 Objective:
-To present research at an international conference and contribute to global decarbonization efforts.
+  To present cutting-edge research at an international conference
+  and contribute to global decarbonization efforts through
+  AI-driven materials science.
 
-Full proposal available here:
-📄
+[Full proposal saved to proposal_draft.txt]
+```
 
-🧪 Tech Stack
-Python
-Google Gemini API
-BeautifulSoup (Web scraping)
-Requests
-tqdm (progress tracking)
-Kaggle Notebook
-🔑 Features
+---
 
-✅ Multi-agent architecture
-✅ Real-time grant discovery
-✅ Eligibility extraction from raw HTML
-✅ Intelligent scoring system
-✅ Automated proposal writing
-✅ API quota-safe fallback logic
-✅ Clean, production-ready outputs
+## 🧪 Tech Stack
 
-🧠 AI Concepts Used
-Multi-agent systems
-Sequential workflows
-LLM-powered reasoning
-Custom tools (scraping + scoring)
-Context engineering
-Observability (logs + scoring)
-Fallback handling (long-running systems)
-🌍 Use Case
+| Component | Technology |
+|---|---|
+| Language | Python 3.9+ |
+| AI / LLM | Google Gemini API |
+| Web Scraping | BeautifulSoup4, Requests |
+| Progress Tracking | tqdm |
+| Notebook Environment | Kaggle / Jupyter |
+| Output Formats | `.txt`, `.json` |
 
-This system is designed for:
+---
 
-🎓 Students
-🧑‍🔬 Researchers
-🌱 Early-career innovators
-🌍 Individuals from developing regions
+## ✅ Features
 
-Who need funding for:
+- 🤖 **Multi-agent architecture** — modular, extensible agents with single responsibilities
+- 🔍 **Real-time grant discovery** — live web search on every run
+- 📋 **Eligibility extraction** — parses raw HTML to surface what matters
+- 📊 **Intelligent scoring** — multi-factor relevance ranking
+- ✍️ **Automated proposal writing** — LLM-generated, context-aware drafts
+- 🔁 **API quota-safe fallback** — graceful degradation when limits are hit
+- 🧾 **Structured outputs** — clean JSON summaries and plain-text proposals
+- 🔍 **Agent observability** — logs and memory bank for every run
 
-Conferences
-Research travel
-Academic presentations
-📂 Project Structure
+---
+
+## 🧠 AI Concepts Applied
+
+| Concept | Implementation |
+|---|---|
+| Multi-agent systems | 4 specialized agents with defined roles |
+| Sequential workflows | Ordered pipeline with state passing |
+| LLM-powered reasoning | Gemini for summarization & proposal drafting |
+| Custom tools | Purpose-built scrapers and scoring functions |
+| Context engineering | Profile-aware prompting across agents |
+| Fallback handling | Quota-safe degradation for long-running tasks |
+| Observability | Memory bank, scoring logs, run traces |
+
+---
+
+## 🌍 Who Is This For?
+
+GrantFinder is built for anyone who needs travel funding but lacks the time or support infrastructure to find it:
+
+| Audience | Use Case |
+|---|---|
+| 🎓 Graduate students | Conference travel funding |
+| 🧑‍🔬 Early-career researchers | First international presentation |
+| 🌱 Innovators from developing regions | Access to global academic networks |
+| 👩‍🏫 Faculty with limited departmental support | Supplemental travel grants |
+
+---
+
+## 📂 Project Structure
+
+```
 GrantFinder/
 │
-├── grantfinder.ipynb       # Main notebook
-├── proposal_draft.txt      # Generated proposal
-├── grant_summary.json      # Ranked grants
-├── memory_bank.json        # Agent memory/logs
-├── README.md
-⚙️ Setup
-1. Install dependencies
+├── grantfinder.ipynb      # Main multi-agent notebook
+├── proposal_draft.txt     # ✍️ Generated grant proposal
+├── grant_summary.json     # 📊 Ranked grant opportunities
+├── memory_bank.json       # 🧾 Agent memory & run logs
+└── README.md              # 📖 This file
+```
+
+---
+
+## ⚙️ Setup
+
+### 1. Install Dependencies
+
+```bash
 pip install requests beautifulsoup4 tqdm google-generativeai
-2. Set API Key
+```
 
-GOOGLE_API_KEY=your_api_key_here
-▶️ Run
-search_agent.run(profile)
-extractor_agent.run(urls)
-summarizer_agent.run(data)
-draft_agent.run(top_grant)
-📈 Impact
+### 2. Configure API Key
 
-⏱️ Saves 3–5 hours → under 1 minute
-📄 Generates ready-to-submit proposals
-🌍 Improves access to global opportunities
+```bash
+# Option A: Environment variable (recommended)
+export GOOGLE_API_KEY=your_api_key_here
 
-🏆 Track
+# Option B: Inline in notebook
+GOOGLE_API_KEY = "your_api_key_here"
+```
 
-🟩 Agents for Good
-Helping researchers access funding and global exposure
+> 🔐 Never commit your API key to version control. Use `.env` files or secrets management in production.
 
-🔮 Future Improvements
-Google Search API integration
-PDF proposal export
-Email automation
-Grant alerts system
-UI dashboard
-👨‍💻 Author
+---
 
-Saksham Walia
+## ▶️ Run
+
+```python
+# Step 1: Define your researcher profile
+profile = {
+    "name": "Your Name",
+    "field": "Materials Science / AI",
+    "conference": "NeurIPS 2025",
+    "location": "India",
+    "funding_needed": 2000
+}
+
+# Step 2: Run the full pipeline
+urls    = search_agent.run(profile)
+data    = extractor_agent.run(urls)
+grants  = summarizer_agent.run(data)
+draft   = draft_agent.run(grants[0])        # Top-ranked grant
+```
+
+---
+
+## 📈 Impact
+
+<div align="center">
+
+| Metric | Manual Process | GrantFinder |
+|---|---|---|
+| ⏱️ Time to find grants | 3–5 hours | < 1 minute |
+| 📄 Proposal drafting | 2–4 hours | Automated |
+| 🎯 Grant relevance | Variable | AI-scored |
+| 🌍 Coverage | Limited | Web-wide |
+
+</div>
+
+---
+
+## 🔮 Future Improvements
+
+- [ ] 🔍 Google Custom Search API integration
+- [ ] 📄 PDF proposal export (formatted)
+- [ ] 📧 Automated email submission
+- [ ] 🔔 Grant deadline alerts & notifications
+- [ ] 🖥️ Web UI / dashboard
+- [ ] 🌐 Multilingual proposal support
+- [ ] 🗃️ Grant database with historical data
+
+---
+
+## 🏆 Track
+
+> **🟩 Agents for Good**
+> Helping researchers and students worldwide access funding and global academic exposure through intelligent automation.
+
+---
+
+## 👨‍💻 Author
+
+**Saksham Walia**
 University of Wollongong India
 
-⭐ Final Note
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com)
 
-GrantFinder demonstrates how AI agents can solve real academic problems by automating discovery, analysis, and content generation—making global opportunities more accessible.
+---
+
+<div align="center">
+
+### ⭐ If GrantFinder helped you, consider giving it a star!
+
+*GrantFinder demonstrates how multi-agent AI systems can solve real academic challenges — automating discovery, analysis, and content generation to make global opportunities more accessible for everyone.*
+
+</div>
