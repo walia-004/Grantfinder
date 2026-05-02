@@ -4,6 +4,7 @@
 <img src="https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/Gemini-API-4285F4?style=for-the-badge&logo=google&logoColor=white" />
 <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Kaggle%20×%20Google-5--Day%20AI%20Agents%20Intensive Course-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" />
 
 <br /><br />
 
@@ -28,6 +29,32 @@ Search → Extract → Summarize → Score → Draft Proposal
 ```
 
 Designed for students, researchers, and early-career academics who need funding but lack the time or resources to navigate the fragmented grant landscape.
+
+---
+
+## 🏫 Built During
+
+<div align="center">
+
+| | |
+|---|---|
+| **Program** | [5-Day Gen AI Intensive Course](https://rsvp.withgoogle.com/events/google-generative-ai-intensive) |
+| **Organizers** | Kaggle × Google |
+| **Focus** | AI Agents, multi-agent systems, LLM tooling |
+| **Outcome** | GrantFinder — submitted as a capstone project |
+
+This project was designed, built, and submitted as part of the **Kaggle × Google 5-Day AI Agents Intensive** — a structured, cohort-based program covering agent architectures, Gemini API integration, and real-world AI application development.
+
+</div>
+
+### 🎓 Certificate of Completion
+
+> **Saksham Walia** — *5-Day Gen AI Intensive with Google*
+
+<!-- To display your certificate: upload the image to your repo and replace the path below -->
+![Certificate of Completion](./certificate.jpeg)
+
+> 💡 *To add your certificate: upload the image to this repo (e.g. `certificate.png`) and the badge above will render automatically on GitHub.*
 
 ---
 
@@ -179,6 +206,7 @@ GrantFinder/
 ├── proposal_draft.txt     # ✍️ Generated grant proposal
 ├── grant_summary.json     # 📊 Ranked grant opportunities
 ├── memory_bank.json       # 🧾 Agent memory & run logs
+├── certificate.png        # 🎓 Kaggle × Google course certificate
 └── README.md              # 📖 This file
 ```
 
@@ -267,7 +295,7 @@ draft   = draft_agent.run(grants[0])        # Top-ranked grant
 University of Wollongong India
 
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github)](https://github.com/walia-004)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/walia-saksham/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/walia-saksham)
 
 ---
 
